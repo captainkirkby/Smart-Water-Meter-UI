@@ -1,0 +1,16 @@
+{
+   "name": "smartWaterMeter",
+   "version": "1.0.0",
+   "description": "Smart Water Meter EE 462 Project",
+   "main": "main.js",
+   "dependencies": {
+      "async": "^2.0.0-rc.6",
+      "body-parser": "^1.15.2",
+      "express": "^4.14.0",
+      "mysql": "^2.11.1"
+   },
+   "devDependencies": {},
+   "author": [
+      "Dylan Kirkby"
+   ]
+}

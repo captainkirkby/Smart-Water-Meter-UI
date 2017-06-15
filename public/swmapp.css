@@ -1,0 +1,59 @@
+body {
+  padding-top: 70px;
+}
+
+.inst-flow {
+   text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+.plot-wrapper {
+   border: 1px solid gray;
+   width: 100%;
+}
+
+.svg-container {
+   display: inline-block;
+   position: relative;
+   width: 100%;
+   padding-bottom: 100%;
+   vertical-align: top;
+   overflow: hidden;
+}
+.svg-content {
+   display: inline-block;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.about {
+   color: #CCCCCC;
+}
+
+.area {
+   fill: url(#temperature-gradient);
+   stroke-width: 05px;
+}
+
+.heat-map {
+   background-image: url("heatmap.png");
+   background-size:100%;
+   width: 60px;
+   height: 25px;
+}
+
+.black-line {
+   background-image: url("blackline.png");
+   background-size: 60px 25px;
+   width: 60px;
+   height: 25px;
+}
+
+.d-inline {
+   display: inline-block;
+}
+
+.hspaced {
+   margin-top: 10px;
+   /*margin-bottom: 10px;*/
+}
